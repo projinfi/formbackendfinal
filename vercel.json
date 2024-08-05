@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "functions": {
+      "api/server.js": {
+        "memory": 128,
+        "maxDuration": 10
+      }
+    }
+  }
+  
