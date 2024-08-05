@@ -26,6 +26,8 @@ app.post('/submit-form', (req, res) => {
   res.json({ userIp });
 });
 
-module.exports = (req, res) => {
-  app(req, res);
-};
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
